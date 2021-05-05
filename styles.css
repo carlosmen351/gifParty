@@ -17,7 +17,7 @@ background-color: black;
 }
 
 .cabecera-logo {
-  width: 200px;
+  width: 150px%;
   height: 150px;
 }
 
@@ -62,8 +62,13 @@ background-color: black;
 }
 
 .footer-div a {
+  text-decoration-line: none;
   color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-div a:hover {
+  color: black;
+  cursor:progress;
 }
 
 .box1 {
